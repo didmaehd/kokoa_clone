@@ -15,4 +15,50 @@
 
 .nav__link {
   color: #2f363e;
+  position: relative;
+}
+
+.nav__friends {
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 30px;
+  bottom: 13px;
+}
+
+.nav__notification {
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 15px;
+  bottom: 13px;
+}
+
+.nav__dot {
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 22px;
+  bottom: 24px;
 }
