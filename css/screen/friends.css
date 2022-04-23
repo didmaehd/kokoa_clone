@@ -1,0 +1,52 @@
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: whitesmoke;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+#friends-display-link i {
+  color: var(--grey-color);
+}
+
+.friends-display-link__message {
+  padding: 0px 10px;
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--grey-color);
+}
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--grey-color);
+}
+
+.recommended-friend span {
+  margin: 110px 0;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: var(--grey-color);
+}
+
+.open-chat__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--grey-color);
+  padding: 20px 0;
+  font-size: 14px;
+}

@@ -1,0 +1,137 @@
+
+body{
+    height: 100%;
+    border: 10px solid #03C7AE ;
+}
+
+.muusic-player__playlist{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 120px;
+}
+.muusic-player__playlist i{
+    padding-left: 40px;
+}
+.muusic-player__playlist span{
+    font-size: 55px;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.player-nowplaying{
+    display: flex;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+.player-nowplaying__imgbox{
+    width: 300px;
+    height: 280px;
+    border: 5px solid rgba(0,0,0,0.7);
+    border-radius: 50px;
+    background-color: #FFBD11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgbox_imasize{
+    font-size: 8em;
+}
+.player-nowplaying__musicinfo{    
+    height: 280px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.player-nowplaying__title{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+
+.player-nowplaying__singer{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.player-function{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 100px 50px;
+}
+
+.player-function__play{
+    width: 400px;
+    height: 140px;
+    text-align: center;
+    border: 5px solid rgba(0,0,0,0.7);
+    border-radius: 30px;
+    border-bottom-width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.player-function__icon i {
+    font-size: 10em;
+    margin-left: 80px;
+}
+
+.music-list li {
+    list-style: none;
+}
+
+
+
+li{
+    display: flex;
+    /* justify-content: flex-start; */
+    margin-bottom: 140px;
+}
+.music-list_box{
+    width: 120px;
+    height: 120px;
+    border: 5px solid rgba(0,0,0,0.7);
+    border-radius: 30px;
+}
+
+.music-artist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.box_1{
+    background-color: tomato;
+}
+
+.box_2{
+    background-color: #FF89BB
+}
+
+
+.box_3{
+    background-color: #1847E5
+}
+
+.box_4{
+    background-color: #00C6AD
+}
+
+.music-artist__song{
+    font-size: 55px;
+    font-weight: bold;
+}
+.music-artist__singer{
+    font-size: 35px;
+    font-weight: bold;
+    color:rgba(0,0,0,0.5) ;
+}

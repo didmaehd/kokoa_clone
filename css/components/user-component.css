@@ -1,0 +1,57 @@
+.user-component {
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.user-component__title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.user-component__subtitle {
+  font-weight: 600;
+  font-size: 17px;
+  margin-top: 8px;
+  color: var(--grey-color);
+}
+
+/* 여기까지 컴포넌트 기본 셋트 */
+/* 아래는 개별 변경 사항들 반영 */
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
+.user-component__title-not-bold {
+  font-weight: 400;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* 친구 옆에 시간이랑 챗 숫자 넣어보기 */
+.user-component__column_xl_chat {
+  width: 100%;
+  position: absolute;
+  text-align: right;
+}

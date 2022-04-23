@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>friends</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <style>
-      img {
-        border-radius: 45px;
-      }
-
-    </style>
+    <script 
+    src="https://kit.fontawesome.com/d3596300f9.js" 
+    crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -24,41 +21,176 @@
         <span>18:43</span>
       </div>
       <div class="status-bar__columm">
-        <span>110%</span>
+        <span>3,000%</span>
         <i class="fa-solid fa-battery-full fa-lg"></i>
         <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
 
-    <!-- <div>Friends</div>
-    <div>Friends' Names Display</div>
-    <img src="img/1.png" width="90px" />Rich Monkey
-    <div>Channel</div>
-    <img src="img/channel.png" width="90px" />Channel -->
+<header class="screen-header">
+  <h1 class="screen-header__title">Friends</h1>
+  <div class="screen-header__icon"><div>
+    <span><i class="fa-solid fa-magnifying-glass-plus fa-lg"></i></span>
+    <span><i class="fa-solid fa-music fa-lg"></i></i></i></span>
+    <span><i class="fa-solid fa-gear fa-lg"></i></span>
+  </div>
+</header>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-            <a class="nav__link" href="friends.html">
-              <span class="nav__friends">7</span>
-              <i class="fa-solid fa-users fa-2xl"></i></i></a></li>
-        <li class="nav__btn">
-            <a class="nav__link" href="#">
-              <span class="nav__notification">76</span>
-              <i class="fa-regular fa-comment-dots fa-2xl "></i></a></li>
-        <li class="nav__btn">
-            <a class="nav__link" href="#">
-              <i class="fa-solid fa-magnifying-glass-plus fa-2xl"></i></a></li>
-        <li class="nav__btn">
-            <a class="nav__link" href="#">
-              <span class="nav__dot"></span>
-              <i class="fa-brands fa-apple fa-2xl"></i></a></li>
-      </ul>
-    </nav>
+<a id="friends-display-link">
+  <i class="fa-solid fa-circle-info"></i>
+    <span class="friends-display-link__message">Friend's Names Display</span>
+  <i class="fa-solid fa-angle-right fa-sm"></i>
+</a>
 
-    <script
-      src="https://kit.fontawesome.com/d3596300f9.js"
-      crossorigin="anonymous"
-    ></script>
+<!-- 이하 친구 리스트 -->
+<main class="friends-screen">
+  <div class="user-component">
+    <div class="user-component__column">
+      <img 
+        src="img/1.png" 
+        class="user-component__avatar user-component__avatar--xl" 
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">SuperSexyMonkey</h4>
+          <h6 class="user-component__subtitle">거품과함께 사라지다</h6>
+        </div>
+      </div>
+    <div class="user-component__column"></div>
+  </div>
+  <div class="user-component">
+    <div class="user-component__column">
+      <img 
+        src="img/msk.PNG" 
+        class="user-component__avatar user-component__avatar--xl" 
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">Elon musk</h4>
+          <h6 class="user-component__subtitle">돈 좀 빌려주실 분..</h6>
+        </div>
+      </div>
+    <div class="user-component__column"></div>
+  </div>
+  <div class="user-component">
+    <div class="user-component__column">
+      <img 
+        src="img/ama.PNG" 
+        class="user-component__avatar user-component__avatar--xl" 
+        />
+        <div class="user-component__text">
+          <h4 class="user-component__title">Jeff bezos</h4>
+          <h6 class="user-component__subtitle">배고파..ㅅㅂ</h6>
+        </div>
+      </div>
+    <div class="user-component__column"></div>
+  </div>
+  <!-- 이하 채널 리스트 -->
+  <div class="friends-screen__channel">
+    <div class="friends-screen__channel-header">
+      <span>Channel</span>
+      <i class="fa-solid fa-angle-up fa-sm"></i>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img 
+          src="img/cococh.png" 
+          class="user-component__avatar user-component__avatar--sm" 
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title-not-bold">Channel</h4>
+          </div>
+        </div>
+      <div class="user-component__column">
+        <div>
+          <span>2</span>
+          <i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </div>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img 
+          src="img/sbc.png" 
+          class="user-component__avatar user-component__avatar--sm" 
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title-not-bold">Stabucks Coffee</h4>
+          </div>
+        </div>
+      <div class="user-component__column">
+        <div>
+          <span>6</span>
+          <i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </div>
+    </div>
+    <div class="user-component">
+      <div class="user-component__column">
+        <img 
+          src="img/channel.png" 
+          class="user-component__avatar user-component__avatar--sm" 
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title-not-bold">CHANEL</h4>
+          </div>
+        </div>
+      <div>
+      <div class="user-component__column">
+        <div>
+          <span>4</span>
+          <i class="fa-solid fa-angle-right fa-sm"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+
+
+
+<!-- 친구 , channel 혼자 해봄 -->
+<!-- <div class="friends-lists">
+  <img class="friends-lists__imgs" src="img/1.png">MonkeyLove
+</div> -->
+<!-- <div class="channel-lists">
+  <div class="channel-list__name">Channel</div>   
+  <div><i class="fa-solid fa-angle-up"></i></div> 
+</div>
+
+<div class="channel-name">
+  <div class="channel-name__01">
+    <img
+      class="channel-name__imgs" 
+      src="img/channel.png" />Channel
+  </div>
+  <div class="channel-name__message">2
+    <i class="fa-solid fa-angle-right"></i>
+  </div>
+</div> -->
+
+
+<nav class="nav">
+  <ul class="nav__list">
+    <li class="nav__btn">
+        <a class="nav__link" href="friends.html">
+          <span class="nav__notification badge">1</span>
+          <i class="fa-solid fa-user fa-2xl nav_selector"></i></i></a></li>
+    <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">2</span>
+          <i class="fa-regular fa-comment-dots fa-xl"></i></a></li>
+    <li class="nav__btn">
+        <a class="nav__link" href="find.html">
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i></a></li>
+    <li class="nav__btn">
+        <a class="nav__link" href="more.html">
+          <span class="nav__dot"></span>
+          <i class="fa-solid fa-align-justify fa-xl"></i></a></li>
+  </ul>
+</nav>
+
+<!-- <script 
+  src="https://kit.fontawesome.com/d3596300f9.js" 
+  crossorigin="anonymous"></script> -->
   </body>
 </html>
+
