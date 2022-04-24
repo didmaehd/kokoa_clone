@@ -12,6 +12,20 @@
   font-weight: 600;
 }
 
+.screen-header__icon {
+  position: relative;
+}
+
 .screen-header__icon span {
   margin-left: 25px;
+}
+
+.screen-header_dot {
+  position: absolute;
+  right: -8px;
+  top: -3px;
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
 }
