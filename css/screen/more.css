@@ -87,3 +87,8 @@
   margin-top: 20px;
   color: white;
 }
+
+.fa-address-card {
+  color: var(--yello);
+  font-size: 36px;
+}
